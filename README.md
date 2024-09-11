@@ -57,3 +57,8 @@ done
 echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
 
 ```
+
+# I hate just working through issues in Jupyter. Convert it to python 
+```bash
+jupyter nbconvert --to script module-0/basics.ipynb
+```
